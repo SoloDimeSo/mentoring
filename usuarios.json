@@ -1,0 +1,27 @@
+[
+    {
+      "model": "Web.usuario",
+      "pk": 3,
+      "fields": {
+        "password": "pbkdf2_sha256$600000$UtcKo7w69ARbM1jmbYSodI$LDRwTZoWbUY1Uf4Lb0XAKJ4T12XNw82weKqJzKb0u6o=",
+        "last_login": "2024-05-22T23:18:54.707Z",
+        "is_superuser": true,
+        "username": "Sofy",
+        "first_name": "Sofia",
+        "last_name": "Ramos",
+        "email": "chofy.r.p@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-05-22T23:06:42.477Z",
+        "rut": "217810558",
+        "nombre": "Sofia",
+        "apellido": "Ramos",
+        "direccion": "Los Leones 9",
+        "telefono": "971011420",
+        "tipo_usuario": "",
+        "correo_electronico": "correo@correoo.cl",
+        "groups": [],
+        "user_permissions": []
+      }
+    }
+  ]

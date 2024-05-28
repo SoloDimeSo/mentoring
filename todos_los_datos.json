@@ -1,0 +1,289 @@
+[
+  {
+    "model": "Web.usuario",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$UtcKo7w69ARbM1jmbYSodI$LDRwTZoWbUY1Uf4Lb0XAKJ4T12XNw82weKqJzKb0u6o=",
+      "last_login": "2024-05-22T23:18:54.707Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-05-22T23:06:42.477Z",
+      "rut": "",
+      "nombre": "",
+      "apellido": "",
+      "direccion": "",
+      "telefono": "",
+      "tipo_usuario": "",
+      "correo_electronico": "correo@correo.cl",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "Web.usuario",
+    "pk": 2,
+    "fields": {
+      "password": "1234",
+      "last_login": "2024-05-22T00:34:23Z",
+      "is_superuser": false,
+      "username": "Sorayita",
+      "first_name": "Soraya",
+      "last_name": "Paredes González",
+      "email": "ticso0101@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-05-23T00:34:14Z",
+      "rut": "14225767-K",
+      "nombre": "Soraya",
+      "apellido": "Paredes González",
+      "direccion": "Orostegui 1771, Valdivia",
+      "telefono": "971011420",
+      "tipo_usuario": "arrendador",
+      "correo_electronico": "ticso0101@gmail.com",
+      "groups": [1, 2],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "Web.usuario",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$UtcKo7w69ARbM1jmbYSodI$LDRwTZoWbUY1Uf4Lb0XAKJ4T12XNw82weKqJzKb0u6o=",
+      "last_login": "2024-05-22T23:18:54.707Z",
+      "is_superuser": true,
+      "username": "Sofy",
+      "first_name": "Sofia",
+      "last_name": "Ramos",
+      "email": "chofy.r.p@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-05-22T23:06:42.477Z",
+      "rut": "217810558",
+      "nombre": "Sofia",
+      "apellido": "Ramos",
+      "direccion": "Los Leones 9",
+      "telefono": "971011420",
+      "tipo_usuario": "",
+      "correo_electronico": "correo@correoo.cl",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  { "model": "Web.region", "pk": 1, "fields": { "nombre": "Los Rios" } },
+  { "model": "Web.region", "pk": 2, "fields": { "nombre": "Los Lagos" } },
+  {
+    "model": "Web.comuna",
+    "pk": 1,
+    "fields": { "nombre": "Valdivia", "region": 1 }
+  },
+  {
+    "model": "Web.comuna",
+    "pk": 3,
+    "fields": { "nombre": "Osorno", "region": 2 }
+  },
+  {
+    "model": "Web.comuna",
+    "pk": 4,
+    "fields": { "nombre": "Palena", "region": 2 }
+  },
+  {
+    "model": "Web.comuna",
+    "pk": 5,
+    "fields": { "nombre": "Los Lagos", "region": 1 }
+  },
+  {
+    "model": "Web.comuna",
+    "pk": 6,
+    "fields": { "nombre": "Futrono", "region": 1 }
+  },
+  {
+    "model": "Web.comuna",
+    "pk": 7,
+    "fields": { "nombre": "Mariquina", "region": 1 }
+  },
+  {
+    "model": "Web.comuna",
+    "pk": 8,
+    "fields": { "nombre": "Máfil", "region": 1 }
+  },
+  {
+    "model": "Web.comuna",
+    "pk": 9,
+    "fields": { "nombre": "Lanco", "region": 1 }
+  },
+  {
+    "model": "Web.comuna",
+    "pk": 10,
+    "fields": { "nombre": "Panguipulli", "region": 1 }
+  },
+  {
+    "model": "Web.comuna",
+    "pk": 11,
+    "fields": { "nombre": "Corral", "region": 1 }
+  },
+  {
+    "model": "Web.comuna",
+    "pk": 12,
+    "fields": { "nombre": "Paillaco", "region": 1 }
+  },
+  {
+    "model": "Web.comuna",
+    "pk": 13,
+    "fields": { "nombre": "Rio Bueno", "region": 1 }
+  },
+  {
+    "model": "Web.comuna",
+    "pk": 14,
+    "fields": { "nombre": "Lago Ranco", "region": 1 }
+  },
+  {
+    "model": "Web.comuna",
+    "pk": 15,
+    "fields": { "nombre": "La Unión", "region": 1 }
+  },
+  {
+    "model": "Web.comuna",
+    "pk": 16,
+    "fields": { "nombre": "Castro", "region": 2 }
+  },
+  {
+    "model": "Web.comuna",
+    "pk": 17,
+    "fields": { "nombre": "Calbuco", "region": 2 }
+  },
+  {
+    "model": "Web.comuna",
+    "pk": 19,
+    "fields": { "nombre": "Curaco de Vélez", "region": 2 }
+  },
+  {
+    "model": "Web.comuna",
+    "pk": 20,
+    "fields": { "nombre": "Ancud", "region": 2 }
+  },
+  {
+    "model": "Web.comuna",
+    "pk": 21,
+    "fields": { "nombre": "Puerto Varas", "region": 2 }
+  },
+  {
+    "model": "Web.comuna",
+    "pk": 22,
+    "fields": { "nombre": "Quellón", "region": 2 }
+  },
+  {
+    "model": "Web.comuna",
+    "pk": 23,
+    "fields": { "nombre": "Purranque", "region": 2 }
+  },
+  {
+    "model": "Web.comuna",
+    "pk": 24,
+    "fields": { "nombre": "Los Muermos", "region": 2 }
+  },
+  {
+    "model": "Web.comuna",
+    "pk": 25,
+    "fields": { "nombre": "Llanquihue", "region": 2 }
+  },
+  {
+    "model": "Web.comuna",
+    "pk": 26,
+    "fields": { "nombre": "Maullín", "region": 2 }
+  },
+  {
+    "model": "Web.comuna",
+    "pk": 27,
+    "fields": { "nombre": "Frutillar", "region": 2 }
+  },
+  {
+    "model": "Web.comuna",
+    "pk": 28,
+    "fields": { "nombre": "Rio Negro", "region": 2 }
+  },
+  {
+    "model": "Web.comuna",
+    "pk": 29,
+    "fields": { "nombre": "Fresia", "region": 2 }
+  },
+  {
+    "model": "Web.comuna",
+    "pk": 30,
+    "fields": { "nombre": "Puyehue", "region": 2 }
+  },
+  {
+    "model": "Web.comuna",
+    "pk": 31,
+    "fields": { "nombre": "Dalcahue", "region": 2 }
+  },
+  {
+    "model": "Web.comuna",
+    "pk": 32,
+    "fields": { "nombre": "Puerto Octay", "region": 2 }
+  },
+  {
+    "model": "Web.comuna",
+    "pk": 33,
+    "fields": { "nombre": "San Pablo", "region": 2 }
+  },
+  {
+    "model": "Web.comuna",
+    "pk": 34,
+    "fields": { "nombre": "Quinchao", "region": 2 }
+  },
+  {
+    "model": "Web.comuna",
+    "pk": 35,
+    "fields": { "nombre": "San Juan de La Costa", "region": 2 }
+  },
+  {
+    "model": "Web.comuna",
+    "pk": 36,
+    "fields": { "nombre": "Quemchi", "region": 2 }
+  },
+  {
+    "model": "Web.comuna",
+    "pk": 37,
+    "fields": { "nombre": "Hualaihue", "region": 2 }
+  },
+  {
+    "model": "Web.comuna",
+    "pk": 38,
+    "fields": { "nombre": "Chaitén", "region": 2 }
+  },
+  {
+    "model": "Web.comuna",
+    "pk": 39,
+    "fields": { "nombre": "Queilén", "region": 2 }
+  },
+  {
+    "model": "Web.comuna",
+    "pk": 40,
+    "fields": { "nombre": "Cochamó", "region": 2 }
+  },
+  {
+    "model": "Web.comuna",
+    "pk": 41,
+    "fields": { "nombre": "Puqueldón", "region": 2 }
+  },
+  {
+    "model": "Web.comuna",
+    "pk": 42,
+    "fields": { "nombre": "Futaleufú", "region": 2 }
+  },
+  {
+    "model": "Web.comuna",
+    "pk": 43,
+    "fields": { "nombre": "Puerto Montt", "region": 2 }
+  },
+  {
+    "model": "Web.comuna",
+    "pk": 44,
+    "fields": { "nombre": "Chonchi", "region": 2 }
+  }
+]

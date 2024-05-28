@@ -1,0 +1,1 @@
+(1, 'casa', 'adad', 'adad', '', Decimal('10000.00'), True, None, None, None, None, None, 'casa', 2, 15)
