@@ -34,7 +34,7 @@ def registro_usuario(request):
             usuario_autenticado = authenticate(username=usuario.username, password=password)
             if usuario_autenticado is not None:
                 login(request, usuario_autenticado)
-                return redirect('index')  
+                return redirect('home')  
     else:
         form = RegistroUsuarioForm()
     return render(request, 'registro_usuario.html', {'form': form})
@@ -80,7 +80,7 @@ def crear_inmueble(request):
         print(form)
         if form.is_valid():
             inmueble = form.save(commit=False)
-            inmueble.propietario = request.user.usuario
+            inmueble.arrendador = request.user
             inmueble.save()
             return redirect('dashboard') 
     else:
@@ -129,9 +129,9 @@ def dashboard(request):
     
     elif request.user.tipo_usuario == 'arrendador':
         # Obtener las solicitudes recibidas por el arrendador
-        solicitudes_recibidas = SolicitudArriendo.objects.filter(inmueble__propietario=request.user)
+        solicitudes_recibidas = SolicitudArriendo.objects.filter(inmueble__arrendador=request.user)
         # Obtener los inmuebles del arrendador
-        inmuebles = Inmueble.objects.filter(propietario=request.user)
+        inmuebles = Inmueble.objects.filter(arrendador=request.user)
         return render(request, 'dashboard_arrendador.html', {'solicitudes_recibidas': solicitudes_recibidas, 'inmuebles': inmuebles})
 
 

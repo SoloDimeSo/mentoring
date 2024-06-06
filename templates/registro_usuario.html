@@ -18,11 +18,12 @@
         </div>
         <div class="form-group">
             <label for="id_nombres">Nombres:</label>
-            <input type="text" class="form-control" id="id_nombres" name="nombres" required>
+            <input type="text" class="form-control" id="id_nombres" name="nombre" required>
+            <div class="text-danger">{{form.nombre.errors}}</div>
         </div>
         <div class="form-group">
             <label for="id_apellidos">Apellidos:</label>
-            <input type="text" class="form-control" id="id_apellidos" name="apellidos" required>
+            <input type="text" class="form-control" id="id_apellidos" name="apellido" required>
         </div>
         <div class="form-group">
             <label for="id_rut">Rut:</label>

@@ -26,8 +26,29 @@
                 {% for inm in inmuebles %}
                 <div class="col">
                     <div class="card h-100">
-                        <img class="card-img-top" src="/media/{{inm.imagen}}" alt="Card image cap">
-                    </a>
+                    <a href="{% url 'detalle' inm.id %}">
+                        <div id="carouselExample" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                <a href="property-details.html"><img class="card-img-top" src="media/{{inm.imagen}}" class="d-block w-100" alt="Card image cap">
+                                </div>
+                                <div class="carousel-item">
+                                <a href="property-details.html"></a><img class="card-img-top" src="media/{{inm.imagen_2}}" class="d-block w-100" alt="Card image cap">
+                                </div>
+                                <div class="carousel-item">
+                                <a href="property-details.html"></a><img class="card-img-top" src="media/{{inm.imagen_3}}" class="d-block w-100" alt="Card image cap">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                            </div>
+                        </div>  
                     <div class="card-body">
                         <h5 class="card-title">{{ inm.name }}</h5>
                         <p class="card-text text-justify">
