@@ -1,10 +1,709 @@
 [
   {
-    "model": "Web.usuario",
+    "model": "admin.logentry",
     "pk": 1,
     "fields": {
-      "password": "pbkdf2_sha256$600000$UtcKo7w69ARbM1jmbYSodI$LDRwTZoWbUY1Uf4Lb0XAKJ4T12XNw82weKqJzKb0u6o=",
-      "last_login": "2024-05-22T23:18:54.707Z",
+      "action_time": "2024-06-01T00:32:33.033Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "Los Rios",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2024-06-01T00:32:41.555Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Valdivia",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2024-06-03T21:25:27.409Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "2",
+      "object_repr": "Soraya Paredes González",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2024-06-03T21:25:30.873Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Arriendo Casa En Condominio Torobayo",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2024-06-03T21:31:38.633Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "3",
+      "object_repr": "Sofia Ramos Paredes",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2024-06-03T21:31:42.329Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Linda Casa Con Vista Al Río",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2024-06-03T21:32:34.148Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Arriendo Casa En Condominio Torobayo",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Imagen\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2024-06-03T21:33:17.838Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Arriendo Casa En Condominio Torobayo",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Precio mensual arriendo\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2024-06-03T21:55:53.109Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "4",
+      "object_repr": "Soraya Paredes González",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2024-06-03T21:56:02.030Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Casa Isla teja",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2024-06-03T22:01:55.194Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Costa Valdivida",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2024-06-03T22:05:59.006Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "Edificio Bold",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2024-06-03T22:10:15.721Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "arcelas Con Bosque, Sector Cayumapu, Valdivia.",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2024-06-03T22:12:19.401Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "7",
+      "object_repr": "Parcela Con Acceso Controlado, A Orillas De Carretera",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2024-06-03T22:12:59.798Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "Solicitud de Linda Casa Con Vista Al Río por Soraya Paredes González",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2024-06-04T16:10:26.753Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "7",
+      "object_repr": "Parcela Con Acceso Controlado, A Orillas De Carretera",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Imagen 2\", \"Imagen 3\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2024-06-04T16:10:49.968Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "Parcelas Con Bosque, Sector Cayumapu, Valdivia.",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Nombre\", \"Imagen 2\", \"Imagen 3\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2024-06-04T16:11:44.581Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "Edificio Bold",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Imagen 2\", \"Imagen 3\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2024-06-04T16:12:18.669Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Costa Valdivia",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Nombre\", \"Imagen 2\", \"Imagen 3\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2024-06-04T16:12:44.962Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Casa Isla teja",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Imagen 2\", \"Imagen 3\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2024-06-04T16:13:31.190Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Linda Casa Con Vista Al Río",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Imagen 2\", \"Imagen 3\"]}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 4,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 4,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 4,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 4,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 5,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 5,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 5,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 5,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 6,
+      "codename": "add_usuario"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 6,
+      "codename": "change_usuario"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 6,
+      "codename": "delete_usuario"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 6,
+      "codename": "view_usuario"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add comuna",
+      "content_type": 7,
+      "codename": "add_comuna"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change comuna",
+      "content_type": 7,
+      "codename": "change_comuna"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete comuna",
+      "content_type": 7,
+      "codename": "delete_comuna"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view comuna",
+      "content_type": 7,
+      "codename": "view_comuna"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add inmueble",
+      "content_type": 8,
+      "codename": "add_inmueble"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change inmueble",
+      "content_type": 8,
+      "codename": "change_inmueble"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete inmueble",
+      "content_type": 8,
+      "codename": "delete_inmueble"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view inmueble",
+      "content_type": 8,
+      "codename": "view_inmueble"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add region",
+      "content_type": 9,
+      "codename": "add_region"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change region",
+      "content_type": 9,
+      "codename": "change_region"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete region",
+      "content_type": 9,
+      "codename": "delete_region"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view region",
+      "content_type": 9,
+      "codename": "view_region"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add solicitud arriendo",
+      "content_type": 10,
+      "codename": "add_solicitudarriendo"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change solicitud arriendo",
+      "content_type": 10,
+      "codename": "change_solicitudarriendo"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete solicitud arriendo",
+      "content_type": 10,
+      "codename": "delete_solicitudarriendo"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view solicitud arriendo",
+      "content_type": 10,
+      "codename": "view_solicitudarriendo"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": { "app_label": "admin", "model": "logentry" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": { "app_label": "auth", "model": "permission" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": { "app_label": "auth", "model": "group" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": { "app_label": "contenttypes", "model": "contenttype" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": { "app_label": "sessions", "model": "session" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": { "app_label": "app", "model": "usuario" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": { "app_label": "app", "model": "comuna" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": { "app_label": "app", "model": "inmueble" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": { "app_label": "app", "model": "region" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": { "app_label": "app", "model": "solicitudarriendo" }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "spbsinx4s51iupyg3njg4eu12jldi645",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQBe_iGln4G5uSPmewdtdrHECOFCcV4u4QKQW0b2beSyTY1pq2zkuasrgIJU6_GwI9uO0g36HdZklzW5cJ5a7Ig3Y5zpmf18P9O6jQ67fWYJ2xKpoCZIgUkDKWIegYvXORy2DCWQVPvqBCJm8NAHFGj7oMQOL9Ad71OIg:1sEWT1:uB6PviWcLx4YyAf1lKegIY4kjJOTFTHASMwkU5skm0c",
+      "expire_date": "2024-06-18T15:52:55.890Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "v3btzf9yf9ohrpi1fy4rui3uue62iu1u",
+    "fields": {
+      "session_data": "e30:1sEImw:WDTOlk1xMjHwxT-ih48saVdCOeGVnEv9GfgwIukm7cU",
+      "expire_date": "2024-06-18T01:16:34.866Z"
+    }
+  },
+  {
+    "model": "app.usuario",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$U1OPNkTkgcdrFLpT60MNcK$HH7OOePl6kKyrAMFwtZu1TIpSF9xG8KsgEkmRpTiW2Q=",
+      "last_login": "2024-06-04T15:52:55.876Z",
       "is_superuser": true,
       "username": "admin",
       "first_name": "",
@@ -12,7 +711,7 @@
       "email": "",
       "is_staff": true,
       "is_active": true,
-      "date_joined": "2024-05-22T23:06:42.477Z",
+      "date_joined": "2024-06-01T00:24:39.363Z",
       "rut": "",
       "nombre": "",
       "apellido": "",
@@ -25,265 +724,296 @@
     }
   },
   {
-    "model": "Web.usuario",
+    "model": "app.usuario",
     "pk": 2,
     "fields": {
       "password": "1234",
-      "last_login": "2024-05-22T00:34:23Z",
+      "last_login": "2024-06-02T21:24:30Z",
       "is_superuser": false,
-      "username": "Sorayita",
+      "username": "So",
       "first_name": "Soraya",
       "last_name": "Paredes González",
-      "email": "ticso0101@gmail.com",
-      "is_staff": true,
+      "email": "",
+      "is_staff": false,
       "is_active": true,
-      "date_joined": "2024-05-23T00:34:14Z",
+      "date_joined": "2024-06-03T21:24:21Z",
       "rut": "14225767-K",
       "nombre": "Soraya",
       "apellido": "Paredes González",
-      "direccion": "Orostegui 1771, Valdivia",
+      "direccion": "René Schneider 5771 Angachilla Valdivia",
       "telefono": "971011420",
       "tipo_usuario": "arrendador",
-      "correo_electronico": "ticso0101@gmail.com",
-      "groups": [1, 2],
-      "user_permissions": []
-    }
-  },
-  {
-    "model": "Web.usuario",
-    "pk": 3,
-    "fields": {
-      "password": "pbkdf2_sha256$600000$UtcKo7w69ARbM1jmbYSodI$LDRwTZoWbUY1Uf4Lb0XAKJ4T12XNw82weKqJzKb0u6o=",
-      "last_login": "2024-05-22T23:18:54.707Z",
-      "is_superuser": true,
-      "username": "Sofy",
-      "first_name": "Sofia",
-      "last_name": "Ramos",
-      "email": "chofy.r.p@gmail.com",
-      "is_staff": true,
-      "is_active": true,
-      "date_joined": "2024-05-22T23:06:42.477Z",
-      "rut": "217810558",
-      "nombre": "Sofia",
-      "apellido": "Ramos",
-      "direccion": "Los Leones 9",
-      "telefono": "971011420",
-      "tipo_usuario": "",
-      "correo_electronico": "correo@correoo.cl",
+      "correo_electronico": "correo@gmail.com",
       "groups": [],
       "user_permissions": []
     }
   },
-  { "model": "Web.region", "pk": 1, "fields": { "nombre": "Los Rios" } },
-  { "model": "Web.region", "pk": 2, "fields": { "nombre": "Los Lagos" } },
   {
-    "model": "Web.comuna",
+    "model": "app.usuario",
+    "pk": 3,
+    "fields": {
+      "password": "1234",
+      "last_login": "2024-05-23T21:30:02Z",
+      "is_superuser": false,
+      "username": "Sofia",
+      "first_name": "Sofia",
+      "last_name": "Ramos Paredes",
+      "email": "chofy.r.pz@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-06-03T21:29:50Z",
+      "rut": "21.781-544",
+      "nombre": "Sofia",
+      "apellido": "Ramos Paredes",
+      "direccion": "Los Leones 9",
+      "telefono": "945552012",
+      "tipo_usuario": "arrendador",
+      "correo_electronico": "chofy.r.p@gmail.com",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "app.usuario",
+    "pk": 4,
+    "fields": {
+      "password": "1234",
+      "last_login": "2024-05-09T21:54:47Z",
+      "is_superuser": false,
+      "username": "Carolina",
+      "first_name": "Carolina",
+      "last_name": "Paredes González",
+      "email": "carolina.margarita.paredes@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-06-03T21:54:38Z",
+      "rut": "10.320.125",
+      "nombre": "Soraya",
+      "apellido": "Paredes González",
+      "direccion": "René Schneider 5771 Angachilla Valdivia",
+      "telefono": "971011420",
+      "tipo_usuario": "arrendador",
+      "correo_electronico": "carolina@gmail.com",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "app.usuario",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$sWPKgFUuKQziZbwGg6OfDf$9lxTENJ11jyYIMWY4kDsVvGCB3P8SgBtFBhRNjfp+T4=",
+      "last_login": "2024-06-04T02:39:42.693Z",
+      "is_superuser": false,
+      "username": "arrendador001",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-06-04T01:16:33.455Z",
+      "rut": "78945612",
+      "nombre": "Gerardo",
+      "apellido": "Alvarez",
+      "direccion": "Orostegui 1771, Valdivia",
+      "telefono": "971011420",
+      "tipo_usuario": "arrendador",
+      "correo_electronico": "correr@gmail.com",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  { "model": "app.region", "pk": 1, "fields": { "nombre": "Los Rios" } },
+  {
+    "model": "app.comuna",
     "pk": 1,
     "fields": { "nombre": "Valdivia", "region": 1 }
   },
   {
-    "model": "Web.comuna",
+    "model": "app.inmueble",
+    "pk": 1,
+    "fields": {
+      "nombre": "Arriendo Casa En Condominio Torobayo",
+      "direccion": "Valdivia, Torobayo, Valdivia, Los Ríos",
+      "descripcion": "Excelente y acogedora casa en Condominio Torobayo.\r\nCondominio cuenta con acceso controlado y seguridad 24/7. Quincho, piscina, áreas verdes y juegos infantiles.\r\nAccesibilidad inmediata a locomoción y cercanía con comercio local.\r\nExcelente conectividad hacia el centro de la ciudad distante a 8 minutos en vehículo.\r\n\r\nDistribución:\r\nPiso 1:\r\n-Hall de acceso\r\n-Estar-Comedor\r\n-Cocina equipada con mobiliario funcional de piso y aéreo, horno, encimera, campana y comedor de diario\r\n-Logia cerrada\r\n-Baño de visitas\r\n-Patio con terraza techada y Bodega\r\n\r\nPiso 2:\r\n-Tres dormitorios, principal con baño en suite y walking closet\r\n-Baño completo\r\n-Estar\r\n\r\n*Disponible para arriendo a partir de 1 de Julio.\r\n*Calefacción central a través de caldera a gas con radiadores de muro y Sistema de aire acondicionado.\r\n*Gastos comunes $70.000",
+      "imagen": "inmuebles/torobayo.png",
+      "imagen_2": "",
+      "imagen_3": "",
+      "precio_mensual_arriendo": "1150000.00",
+      "comuna": 1,
+      "disponibilidad": true,
+      "m2_construidos": 307.0,
+      "m2_totales": 1500.0,
+      "cantidad_estacionamientos": 3,
+      "cantidad_habitaciones": 4,
+      "cantidad_banos": 3,
+      "tipo_inmueble": "casa",
+      "arrendador": 2
+    }
+  },
+  {
+    "model": "app.inmueble",
+    "pk": 2,
+    "fields": {
+      "nombre": "Linda Casa Con Vista Al Río",
+      "direccion": "Niebla Parcela 30",
+      "descripcion": "Linda casa con vista al rio, gran terraza y entorno rodeado de árboles.\r\nPrograma:\r\nHall de acceso\r\nEstar-comedor\r\nCocina\r\nTres dormitorios\r\nTres baños\r\nTerraza\r\nEstacionamiento\r\nCalefacción",
+      "imagen": "inmuebles/niebla3.png",
+      "imagen_2": "inmuebles/casa4.png",
+      "imagen_3": "inmuebles/casa1_aquxAp4.png",
+      "precio_mensual_arriendo": "1200000.00",
+      "comuna": 1,
+      "disponibilidad": true,
+      "m2_construidos": 135.0,
+      "m2_totales": 550.0,
+      "cantidad_estacionamientos": 2,
+      "cantidad_habitaciones": 3,
+      "cantidad_banos": 2,
+      "tipo_inmueble": "casa",
+      "arrendador": 3
+    }
+  },
+  {
+    "model": "app.inmueble",
     "pk": 3,
-    "fields": { "nombre": "Osorno", "region": 2 }
+    "fields": {
+      "nombre": "Casa Isla teja",
+      "direccion": "Amunategui 330",
+      "descripcion": "Descripción\r\nPropiedad de 165 mts2. construidos en 450 mts2 de terreno.\r\nPrimer piso: Hall de acceso, baño de visita,amplio living comedor con radiadores electricos, cocina amplia equipada con encimera, horno electrico,muebles,logia, despensa y terraza techada con combustion lenta a leña.\r\nDormitorio principal con walking closet y baño, radiador electrico.\r\nSegundo piso: Sala de estar,3 dormitorios con closet y baño compartido.\r\nCombustion lenta a leña y aire acondicionado.\r\nVentanas termopanel, quincho, bodega, patio con terraza.\r\nEstacionamiento para 2 vehiculos.\r\nA 15 minutos del centro de Valdivia, cercanoa colegios, Isla Teja y costa Valdiviana.\r\nCondominio cuenta con club house y botadero.",
+      "imagen": "inmuebles/teja.png",
+      "imagen_2": "inmuebles/casa2.png",
+      "imagen_3": "inmuebles/casa1.png",
+      "precio_mensual_arriendo": "1250000.00",
+      "comuna": 1,
+      "disponibilidad": true,
+      "m2_construidos": 450.0,
+      "m2_totales": 1200.0,
+      "cantidad_estacionamientos": 3,
+      "cantidad_habitaciones": 4,
+      "cantidad_banos": 3,
+      "tipo_inmueble": "casa",
+      "arrendador": 4
+    }
   },
   {
-    "model": "Web.comuna",
+    "model": "app.inmueble",
     "pk": 4,
-    "fields": { "nombre": "Palena", "region": 2 }
+    "fields": {
+      "nombre": "Costa Valdivia",
+      "direccion": "Arturo Prat 1571, Centro de Valdivia,",
+      "descripcion": "Superficie útil\t\r\n25 m² a 101 m²\r\nDormitorios\t\r\n1 a 3\r\nBaños\t\r\n1 a 2\r\nPrecio estacionamiento desde (UF)\t\r\n450\r\nPrecio bodega desde (UF)\t\r\n150",
+      "imagen": "inmuebles/costaValdivia.png",
+      "imagen_2": "inmuebles/depto5.png",
+      "imagen_3": "inmuebles/depto4.png",
+      "precio_mensual_arriendo": "450000.00",
+      "comuna": 1,
+      "disponibilidad": true,
+      "m2_construidos": 101.0,
+      "m2_totales": 101.0,
+      "cantidad_estacionamientos": 2,
+      "cantidad_habitaciones": 3,
+      "cantidad_banos": 2,
+      "tipo_inmueble": "departamento",
+      "arrendador": 4
+    }
   },
   {
-    "model": "Web.comuna",
+    "model": "app.inmueble",
     "pk": 5,
-    "fields": { "nombre": "Los Lagos", "region": 1 }
+    "fields": {
+      "nombre": "Edificio Bold",
+      "direccion": "Chacabuco 637, Centro de Valdivia",
+      "descripcion": "Superficie útil\t\r\n30.25 m² a 63.44 m²\r\nDormitorios\t\r\n1 a 2\r\nBaños\t\r\n1 a 2\r\nPrecio estacionamiento desde (UF)\t\r\n400\r\nPrecio bodega desde (UF)\t\r\n80",
+      "imagen": "inmuebles/bold.png",
+      "imagen_2": "inmuebles/dept3.png",
+      "imagen_3": "inmuebles/dept1.png",
+      "precio_mensual_arriendo": "550000.00",
+      "comuna": 1,
+      "disponibilidad": true,
+      "m2_construidos": 63.44,
+      "m2_totales": 63.44,
+      "cantidad_estacionamientos": 1,
+      "cantidad_habitaciones": 2,
+      "cantidad_banos": 2,
+      "tipo_inmueble": "departamento",
+      "arrendador": 4
+    }
   },
   {
-    "model": "Web.comuna",
+    "model": "app.inmueble",
     "pk": 6,
-    "fields": { "nombre": "Futrono", "region": 1 }
+    "fields": {
+      "nombre": "Parcelas Con Bosque, Sector Cayumapu, Valdivia.",
+      "direccion": "Cayumapu, Valdivia, Chile, Valdivia, Los Ríos",
+      "descripcion": "A minutos de Valdivia, Gran oportunidad. Maravillosas parcelas de 5.000m2 (aprox.) con bosque, pendientes suaves y acceso al río Cayumapu, para todos los propietarios a través de muelle y áreas comunes. Elige vivir en un lugar único, para disfrutar conectado con la naturaleza y la tranquilidad de un entorno privilegiado muy cerca de Valdivia, ciudad que, por tercera vez consecutiva, fue elegida como la mejor para vivir en Chile.\r\nExcelente conectividad, a solo 15 minutos del puente Cau Cau, a 8 minutos del aeropuerto Pichoy y a 12 minutos del aeródromo Las Marías. Ubicado en un lugar estratégico, muy seguro, cerca de la autopista y a la vez muy bien resguardado.\r\nEl loteo cuenta con rol para cada parcela, estudio de títulos a la vista para escritura inmediata, electricidad subterránea Saesa, agua por pozo propio que cada propietario debe hacer y caminos de ripio estabilizado.\r\nVisítanos, no pierdas esta oportunidad única.",
+      "imagen": "inmuebles/parcela_2.png",
+      "imagen_2": "inmuebles/parcela6.png",
+      "imagen_3": "inmuebles/parcela5.png",
+      "precio_mensual_arriendo": "900000.00",
+      "comuna": 1,
+      "disponibilidad": true,
+      "m2_construidos": 500.0,
+      "m2_totales": 5000.0,
+      "cantidad_estacionamientos": 10,
+      "cantidad_habitaciones": 8,
+      "cantidad_banos": 6,
+      "tipo_inmueble": "parcela",
+      "arrendador": 3
+    }
   },
   {
-    "model": "Web.comuna",
+    "model": "app.inmueble",
     "pk": 7,
-    "fields": { "nombre": "Mariquina", "region": 1 }
+    "fields": {
+      "nombre": "Parcela Con Acceso Controlado, A Orillas De Carretera",
+      "direccion": "Cayumapu, Valdivia, Los Ríos",
+      "descripcion": "Tenemos para ti esta parcela con la perfecta armonía entre exclusividad y naturaleza en Loteo Doña Inés, a solo 20 minutos por el acceso norte de la ciudad de Valdivia. Con una superficie de 5.100 m², esta propiedad ofrece no solo amplitud, sino también la belleza impresionante de un bosque nativo.\r\n\r\nCada rincón de esta parcela te ofrece una opción para construir tu casa ideal, rodeado por la majestuosidad de la naturaleza sureña. La presencia de un hermoso bosque nativo del tipo siempreverde añade un toque especial, proporcionando un entorno sereno y único que será parte de tu día a día.\r\n\r\nAdemás de la abundancia de espacio y la belleza natural, esta parcela garantiza acceso a luz y agua, elementos esenciales que facilitarán la construcción de tu nuevo hogar. Dentro de las prestaciones se encuentra un hermoso Club House y piscinas disponibles para los residentes y propietarios del loteo.\r\n\r\nEl proyecto de Loteo Doña Inés se encuentra en etapa de consolidación y te brinda la exclusividad de vivir en un lugar donde la naturaleza y la comodidad se fusionan de manera perfecta.\r\n\r\nContáctanos hoy para obtener más detalles y programar una visita a esta parcela en Loteo Doña Inés.",
+      "imagen": "inmuebles/parcela1.png",
+      "imagen_2": "inmuebles/parcela4.png",
+      "imagen_3": "inmuebles/parcela3.png",
+      "precio_mensual_arriendo": "800000.00",
+      "comuna": 1,
+      "disponibilidad": true,
+      "m2_construidos": 300.0,
+      "m2_totales": 5108.0,
+      "cantidad_estacionamientos": 10,
+      "cantidad_habitaciones": 4,
+      "cantidad_banos": 4,
+      "tipo_inmueble": "parcela",
+      "arrendador": 3
+    }
   },
   {
-    "model": "Web.comuna",
+    "model": "app.inmueble",
     "pk": 8,
-    "fields": { "nombre": "Máfil", "region": 1 }
+    "fields": {
+      "nombre": "Soraya",
+      "direccion": "Orostegui 1771, Valdivia",
+      "descripcion": "",
+      "imagen": "inmuebles/niebla2.png",
+      "imagen_2": "",
+      "imagen_3": "",
+      "precio_mensual_arriendo": "500000.00",
+      "comuna": 1,
+      "disponibilidad": true,
+      "m2_construidos": 110.0,
+      "m2_totales": 500.0,
+      "cantidad_estacionamientos": 1,
+      "cantidad_habitaciones": 3,
+      "cantidad_banos": 2,
+      "tipo_inmueble": "casa",
+      "arrendador": 5
+    }
   },
   {
-    "model": "Web.comuna",
-    "pk": 9,
-    "fields": { "nombre": "Lanco", "region": 1 }
-  },
-  {
-    "model": "Web.comuna",
-    "pk": 10,
-    "fields": { "nombre": "Panguipulli", "region": 1 }
-  },
-  {
-    "model": "Web.comuna",
-    "pk": 11,
-    "fields": { "nombre": "Corral", "region": 1 }
-  },
-  {
-    "model": "Web.comuna",
-    "pk": 12,
-    "fields": { "nombre": "Paillaco", "region": 1 }
-  },
-  {
-    "model": "Web.comuna",
-    "pk": 13,
-    "fields": { "nombre": "Rio Bueno", "region": 1 }
-  },
-  {
-    "model": "Web.comuna",
-    "pk": 14,
-    "fields": { "nombre": "Lago Ranco", "region": 1 }
-  },
-  {
-    "model": "Web.comuna",
-    "pk": 15,
-    "fields": { "nombre": "La Unión", "region": 1 }
-  },
-  {
-    "model": "Web.comuna",
-    "pk": 16,
-    "fields": { "nombre": "Castro", "region": 2 }
-  },
-  {
-    "model": "Web.comuna",
-    "pk": 17,
-    "fields": { "nombre": "Calbuco", "region": 2 }
-  },
-  {
-    "model": "Web.comuna",
-    "pk": 19,
-    "fields": { "nombre": "Curaco de Vélez", "region": 2 }
-  },
-  {
-    "model": "Web.comuna",
-    "pk": 20,
-    "fields": { "nombre": "Ancud", "region": 2 }
-  },
-  {
-    "model": "Web.comuna",
-    "pk": 21,
-    "fields": { "nombre": "Puerto Varas", "region": 2 }
-  },
-  {
-    "model": "Web.comuna",
-    "pk": 22,
-    "fields": { "nombre": "Quellón", "region": 2 }
-  },
-  {
-    "model": "Web.comuna",
-    "pk": 23,
-    "fields": { "nombre": "Purranque", "region": 2 }
-  },
-  {
-    "model": "Web.comuna",
-    "pk": 24,
-    "fields": { "nombre": "Los Muermos", "region": 2 }
-  },
-  {
-    "model": "Web.comuna",
-    "pk": 25,
-    "fields": { "nombre": "Llanquihue", "region": 2 }
-  },
-  {
-    "model": "Web.comuna",
-    "pk": 26,
-    "fields": { "nombre": "Maullín", "region": 2 }
-  },
-  {
-    "model": "Web.comuna",
-    "pk": 27,
-    "fields": { "nombre": "Frutillar", "region": 2 }
-  },
-  {
-    "model": "Web.comuna",
-    "pk": 28,
-    "fields": { "nombre": "Rio Negro", "region": 2 }
-  },
-  {
-    "model": "Web.comuna",
-    "pk": 29,
-    "fields": { "nombre": "Fresia", "region": 2 }
-  },
-  {
-    "model": "Web.comuna",
-    "pk": 30,
-    "fields": { "nombre": "Puyehue", "region": 2 }
-  },
-  {
-    "model": "Web.comuna",
-    "pk": 31,
-    "fields": { "nombre": "Dalcahue", "region": 2 }
-  },
-  {
-    "model": "Web.comuna",
-    "pk": 32,
-    "fields": { "nombre": "Puerto Octay", "region": 2 }
-  },
-  {
-    "model": "Web.comuna",
-    "pk": 33,
-    "fields": { "nombre": "San Pablo", "region": 2 }
-  },
-  {
-    "model": "Web.comuna",
-    "pk": 34,
-    "fields": { "nombre": "Quinchao", "region": 2 }
-  },
-  {
-    "model": "Web.comuna",
-    "pk": 35,
-    "fields": { "nombre": "San Juan de La Costa", "region": 2 }
-  },
-  {
-    "model": "Web.comuna",
-    "pk": 36,
-    "fields": { "nombre": "Quemchi", "region": 2 }
-  },
-  {
-    "model": "Web.comuna",
-    "pk": 37,
-    "fields": { "nombre": "Hualaihue", "region": 2 }
-  },
-  {
-    "model": "Web.comuna",
-    "pk": 38,
-    "fields": { "nombre": "Chaitén", "region": 2 }
-  },
-  {
-    "model": "Web.comuna",
-    "pk": 39,
-    "fields": { "nombre": "Queilén", "region": 2 }
-  },
-  {
-    "model": "Web.comuna",
-    "pk": 40,
-    "fields": { "nombre": "Cochamó", "region": 2 }
-  },
-  {
-    "model": "Web.comuna",
-    "pk": 41,
-    "fields": { "nombre": "Puqueldón", "region": 2 }
-  },
-  {
-    "model": "Web.comuna",
-    "pk": 42,
-    "fields": { "nombre": "Futaleufú", "region": 2 }
-  },
-  {
-    "model": "Web.comuna",
-    "pk": 43,
-    "fields": { "nombre": "Puerto Montt", "region": 2 }
-  },
-  {
-    "model": "Web.comuna",
-    "pk": 44,
-    "fields": { "nombre": "Chonchi", "region": 2 }
+    "model": "app.solicitudarriendo",
+    "pk": 1,
+    "fields": {
+      "inmueble": 2,
+      "arrendatario": 2,
+      "fecha_solicitud": "2024-06-03T22:12:59.793Z",
+      "estado_solicitud": "aceptada",
+      "mensaje": "Queda pendiente contrato de trabajo y certificado AFP"
+    }
   }
 ]
