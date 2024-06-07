@@ -29,9 +29,9 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['mentoring-q0tk.onrender.com', '127.0.0.1']
 
-CSRF_TRUSTED_ORIGINS = ['http://127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['http://127.0.0.1' , 'https://mentoring-q0tk.onrender.com']
 AUTH_USER_MODEL = 'app.Usuario'
 LOGIN_REDIRECT_URL = 'home'
 LOGIN_URL = 'login'  # URL a la que se redirige si un usuario no está autenticado y trata de acceder a una vista protegida
